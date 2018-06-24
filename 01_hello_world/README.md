@@ -9,5 +9,11 @@ sudo apt install ./libicu55_55.1-7ubuntu0.4_amd64.deb
 ```
 Source: https://askubuntu.com/questions/905018/install-powershell-in-ubuntu-17-04/939367#939367
 
-# Compiling and running an application
-https://www.microsoft.com/net/learn/get-started/linux/ubuntu18-04#create
+# Creating and running an application
+
+```bash
+dotnet new console -o appName
+cd appName
+dotnet run
+```
+Source: https://www.microsoft.com/net/learn/get-started/linux/ubuntu18-04#create
